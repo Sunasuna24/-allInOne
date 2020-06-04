@@ -1,0 +1,50 @@
+.swiper-container {
+    width: 100%;
+    height: 100vh;
+}
+
+.swiper-wrapper {
+}
+
+.swiper-slide {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    position: relative;
+}
+
+.swiper-text {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.swiper-text h3 {
+    font-size: 5em;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+
+.swiper-text p {
+    font-size: 2em;
+}
+
+.strong-list {
+    height: 500px;
+}
+
+@media screen and (min-width: 1024px) {
+    header {
+        position: fixed;
+        z-index: 10;
+        width: 100%;
+    }
+    
+    .header a {
+        color: #fff;
+    }
+
+}
